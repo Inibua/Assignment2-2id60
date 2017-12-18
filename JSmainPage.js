@@ -1,6 +1,9 @@
-import {userGlobal, token, isLoggedIn} from './userLoginSignup';
+import {
+    userGlobal,
+    token,
+    isLoggedIn
+} from './userLoginSignup';
 
-console.log(userData)
 $(document).ready(() => {
     /*$("#uploadNewPostButton").click(uploadPost);*/
     $("#form").each(function () {
@@ -28,6 +31,11 @@ $(document).ready(() => {
 
 });
 
+function typa() {
+    console.log(userGlobal)
+    console.log(token)
+    console.log(isLoggedIn)
+}
 
 function uploadPost() {
     empty = " ";

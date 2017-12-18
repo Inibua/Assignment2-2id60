@@ -84,7 +84,7 @@ function changeLoginNavBarToUserName() {
     $("#login-navbar").css("padding-top", "8px")
 }
 
-export {
+exports = {
     userGlobal,
     token,
     isLoggedIn
